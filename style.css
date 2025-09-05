@@ -23,7 +23,6 @@
 }
 
 img{
-    max-width: 100%;
     height: auto;
 }
 
@@ -78,9 +77,8 @@ h1{
 
 #AboutPage{
     display: flex;
-    justify-content: center;
-    margin: auto;
-
+    justify-content: flex-end;
+    align-items: left;
     padding-top: 10rem;
 
     height: 37rem;
@@ -92,11 +90,9 @@ h1{
 
 #AboutText{
     display: flex;
-    flex-direction: column;
     justify-content: left;
+    flex-direction: column;
     margin-right: auto;
-
-    padding-left: 1rem;
 
     width: 45%;
     height: 30rem;
@@ -104,11 +100,9 @@ h1{
 
 #AboutImage{
     display: flex;
-    background-color: #343639;
+    justify-content: center;
 
-    padding-left: 3rem;
-
-    width: 55%;
+    width: 96%;
 }
 
 #SkillsPage{
