@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'jetbrains-mono';
+    src: url(fonts/JetBrainsMono-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'jetbrains-mono';
+    src: url(fonts/JetBrainsMono-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'jetbrains-mono';
+    src: url(fonts/JetBrainsMono-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'jetbrains-mono';
+    src: url(fonts/JetBrainsMono-Medium.ttf);
+    font-weight: Medium;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    background-color: #343639;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding: .5rem;
+    font-size: 3.5rem;
+    font-family: jetbrains-mono;
+    color: white;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 6rem;
+
+    font-family: jetbrains-mono;
+    font-size: 50px;
+    
+    background-color: #343639;
+}
+
+#navButtons{
+    display: flex;
+    margin-left: auto;
+
+    padding-right: 2.6rem;
+
+    justify-content: right;    
+    align-items: center;
+
+    height: 100%;
+    width: 50%;
+}
+
+#navLink{
+    padding: 1.4rem;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+
+#AboutPage{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    padding-top: 10rem;
+
+    height: 37rem;
+
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: auto;
+}
+
+#AboutText{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: auto;
+
+    padding-left: 1rem;
+
+    width: 45%;
+    height: 30rem;
+}
+
+#AboutImage{
+    display: flex;
+    background-color: #343639;
+
+    padding-left: 3rem;
+
+    width: 55%;
+}
+
+#SkillsPage{
+    display: flex;
+    width: 100%;
+    height: 50rem;
+    background-color: #0C0C0D;
+}
+
+#TitleDiv{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    width: 100%;
+    height: 10rem;
+}
+
+.PageTitle{
+    display: flex;
+    align-items: center;
+}
+
+.StylizedText{
+    color: white;
+    font-family: jetbrains-mono;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.circle{
+    width: 3rem;
+    height: 3rem;
+
+    border-radius: 50%;
+
+    background-color: white;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
