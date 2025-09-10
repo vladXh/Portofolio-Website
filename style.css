@@ -24,6 +24,8 @@
 
 img{
     height: auto;
+    object-fit: cover;
+    border-radius: 3rem;
 }
 
 body{
@@ -37,6 +39,12 @@ h1{
     font-size: 3.5rem;
     font-family: jetbrains-mono;
     color: white;
+}
+
+p{
+    font-family: jetbrains-mono;
+    color: white;
+    font-size: 1.7rem;
 }
 
 #header{
@@ -58,19 +66,19 @@ h1{
 
 #navButtons{
     display: flex;
-    margin-left: auto;
-
-    padding-right: 2.6rem;
-
-    justify-content: right;    
+    margin-left: auto;    
     align-items: center;
 
     height: 100%;
-    width: 50%;
+    width:auto;
+
+    padding-left: 16rem;
+    padding-right: 6rem
 }
 
 #navLink{
     padding: 1.4rem;
+    white-space: nowrap;
     text-decoration: none;
     font-size: 1.7rem;
 }
@@ -80,8 +88,6 @@ h1{
 }
 #AboutPage{
     display: flex;
-    justify-content: flex-end;
-    align-items: left;
     padding-top: 10rem;
 
     height: 37rem;
@@ -97,23 +103,15 @@ h1{
     flex-direction: column;
     margin-right: auto;
 
-    width: 45%;
+    padding-left: 3rem;
+
+    width: 50%;
     height: 30rem;
 }
 
 #AboutImage{
     display: flex;
     justify-content: center;
-
-    width: 96%;
-}
-
-#SkillsPage{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 50rem;
-    background-color: #0C0C0D;
 }
 
 #TitleDiv{
@@ -125,6 +123,44 @@ h1{
     height: 10rem;
 }
 
+#Paragraph{
+    font-size: 1.7rem; 
+    text-align: left; 
+    margin: 0; 
+    font-weight: normal;
+    width: 35rem;
+}
+
+#AbtPage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50rem;
+    background-color: #0C0C0D;
+}
+
+#AbtText{
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+
+    padding-left: 3rem;
+    padding-right: 6rem;
+
+    width: 35rem;
+    height: 30rem;
+
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#AbtImage{
+    display: flex;
+    padding-left: 6rem;
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
 .PageTitle{
     display: flex;
     align-items: center;
@@ -133,7 +169,6 @@ h1{
 .StylizedText{
     color: white;
     font-family: jetbrains-mono;
-    font-size: 20px;
     text-align: center;
 }
 
@@ -150,11 +185,6 @@ h1{
 .Container{
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: gray;
-
-    width: 100%;
-    height: 100%;
 }
 
 #logo{
